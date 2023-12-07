@@ -32,7 +32,7 @@ The program validates the entered infix expression for proper syntax, ensuring c
 To build the program, you can use a C compiler such as `gcc`:
 
 ```bash
-gcc InfixToPostfixApplication.c -o InfixToPostfixApplication
+gcc InfixToPostfixApplication.c -o InfixToPostfixApplication -lm
 ```
 
 ### Run
